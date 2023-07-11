@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  /* border: solid 1px black; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ddd;
+}
+header {
+  display: flex;
+  height: 160px;
+  background-color: #00bfff;
+}
+img {
+  /* background-image: url("./阿勇日文LOGO\(確定版\).png"); */
+
+  flex: none;
+  width: 140px;
+}
+.logo {
+  width: 140px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 8px;
+}
+nav {
+  flex: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  /* background-color: #333; */
+  color: white;
+  margin-bottom: 10px;
+}
+a::hover {
+  color: yellow;
+  transition: 1s;
+}
+.JPlesson {
+  display: none;
+  width: 50%;
+  position: relative;
+  background-color: #fff;
+  left: 35rem;
+}
+tr td {
+  padding: 8px;
+  width: 150px;
+}
